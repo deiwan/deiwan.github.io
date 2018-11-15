@@ -15,7 +15,7 @@ height: 1799px;
 margin:30px 50px;
 background-color:#ffffff;
 border:1px solid black;
-opacity:50;
+opacity:0.1;
 filter:alpha (opacity=60); /* For IE8 and earlier */
 }
 div.transbox p
