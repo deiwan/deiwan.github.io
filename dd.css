@@ -1,0 +1,81 @@
+* {cursor: url(http://ani.cursors-4u.net/cursors/cur-13/cur1165.ani), url(http://ani.cursors-4u.net/cursors/cur-13/cur1165.png), auto !important;}
+		/*layout section*/
+div.background
+{
+width:799px;
+height:500px;
+background:url(images5.jpg) repeat;
+border:1px solid black;
+background-size: 999px;
+}
+div.transbox
+{
+width: 1799px;
+height: 1799px;
+margin:30px 50px;
+background-color:#ffffff;
+border:1px solid black;
+opacity:0.1;
+filter:alpha (opacity=60); /* For IE8 and earlier */
+}
+div.transbox p
+{
+margin:30px 40px;
+font-weight:bold;
+color:#000000;
+align-items: center;
+
+
+}
+#outerCircleText {
+font-style: italic;
+font-weight: bold;
+font-family: &#39;comic sans ms&#39;, verdana, arial;
+color: #ff840a;
+
+position: absolute;top: 0;left: 0;z-index: 3000;cursor: default;}
+#outerCircleText div {position: relative;}
+#outerCircleText div div {position: absolute;top: 0;left: 0;text-align: center;}
+#images{
+	isolation: 70px;
+	border-image-source: 50px;
+}
+.devy {
+  margin: 0 auto;
+  width:250px;
+  border:solid 2px red;
+  border-radius: 5px;
+  color: #111;
+  font: bold 15px/40px Verdana,serif;
+  text-shadow: 1px 2px 1px red;
+  text-align:center;
+  transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -webkit-transition: all 0.8s;
+  -ms-transition: all 0.8s; 
+  -o-transition: all 0.8s}
+
+.devy:hover {
+  /*nilai perubahan*/
+  color: #fff;
+  text-shadow: 1px 2px 2px #111;
+  transform:rotate(20deg);
+  -webkit-transform:rotate(20deg);
+  -moz-transform:rotate(20deg);
+  box-shadow: 2px 4px 3px 2px #222}
+ .icon{
+ 	margin: 0 auto;
+ 	width: 40px;
+ 	background-image: url();
+ 	transition: all 0.8s;
+ 	-moz-transition: all 0.8s;
+ 	-webkit-transition: all 0.8s;
+ 	-ms-transition: all 0.8s;
+ 	-o-transition: all 0.8s}
+.icon:hover {
+	/*nilai perubahan*/
+  color: #fff;
+  transform:rotate(360deg);
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+}
