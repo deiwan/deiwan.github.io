@@ -4,7 +4,7 @@ div.background
 {
 width:799px;
 height:500px;
-background:url(images.jpg) repeat;
+background:url(images5.jpg) repeat;
 border:1px solid black;
 background-size: 999px;
 }
@@ -15,7 +15,7 @@ height: 1799px;
 margin:30px 50px;
 background-color:#ffffff;
 border:1px solid black;
-opacity:0.1;
+opacity:50;
 filter:alpha (opacity=60); /* For IE8 and earlier */
 }
 div.transbox p
