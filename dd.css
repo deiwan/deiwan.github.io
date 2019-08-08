@@ -2,11 +2,11 @@
 		/*layout section*/
 div.background
 {
-width:799px;
+width:999px;
 height:500px;
 background:url(images5.jpg) repeat;
 border:1px solid black;
-background-size: 1999px;
+background-size: 999px;
 }
 div.transbox
 {
